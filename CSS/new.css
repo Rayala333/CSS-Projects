@@ -1,0 +1,305 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box
+}
+
+/* HEADER */
+
+header{
+    background-color: #003049;
+    width: 100%;
+    height: 80px;
+}
+
+/* LOGO */
+
+logo{
+    width: 400px;
+    color: #fff;
+   float: left;
+   margin-top: 7px;
+}
+logo h1{
+    float: left;
+    font-size: 50px;
+    margin-left: 100px;
+}
+logo h3{
+    margin-top: 33px;
+    color: #d3dbd3;
+    font-size: 18px;
+}
+
+/* SOCIAL ICONES */
+
+.icon{
+   color: #fff;
+   font-size: 20px;
+   float: left;
+   width: 300px;
+   margin-top: 10px;
+   margin-left: 670px;
+}
+.icon .fa{
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+/* BUTTON */
+
+.header button{
+    /* margin-top: 23px; */
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #d62828;
+    color: #fff;
+    cursor: pointer;
+   
+    
+}
+
+
+/* NAV BAR */
+
+nav ul{
+    list-style-type: none;
+    width: 83%;
+    height: 30px;
+    /* border: 1px solid #fff; */
+    padding-left: 100px;
+    line-height: 30px;
+    margin-top: 5px;
+    float: left;
+   
+}
+nav ul li{
+    float: left;
+    font-size: 20px;
+    line-height: 40px;
+    padding-right: 25px;
+    text-align:center;
+   
+    
+}
+ ul li a{
+    text-decoration: none;
+    display:block;
+    width:100px;
+    height: auto;
+
+}
+nav ul li a.active,
+nav ul li a:hover{
+    background-color: #d62828;
+    opacity: 0.6;
+    color: #fff;
+    transition:0.5s;
+     border-radius: 15px;
+     width: 100px;
+     text-decoration: none;
+     /* margin-top: 5px; */
+    
+}
+.navbutton{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #d62828;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 12px;
+  
+}
+   
+
+
+/* image slider */
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: 5px;
+    
+  }
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+
+  /* image size */
+  .slideshow-container img{
+      width: 100%;
+      height: 622px;
+      margin-top: 6px;
+  }
+
+
+
+/* Next & previous buttons */
+  /* .bttt .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -10px;
+    padding: 16px;
+    color:black;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  } */
+  
+  /* Position the "next button" to the right */
+  /* .bttt .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  } */
+  
+  /* On hover, add a black background color with a little bit see-through */
+  /* .bttt.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+  } */
+
+  
+  
+  /* The dots/bullets/indicators */
+
+
+  .cri{
+      text-align: center;
+      margin-top: -70px;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #d62828;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #fff;
+  }
+  
+  /* Fading animation */
+  /* .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  } */
+
+
+  /* Text */
+
+  .passage{
+      position: absolute;
+      margin-top: -420px;
+      margin-left: 480px;
+      color: #fff;
+      font-size: 30px;
+     
+      
+  }
+  .passage h2{
+      text-align: center;
+  }
+  .one{
+      color: #d62828;
+  }
+
+
+
+  /* search form */
+  .search-form{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 680px;
+    
+   
+  }
+
+  /* input type text */
+  input[type=text]{
+            text-align: center;
+            width: 200px;
+            height: 40px;
+            border-radius: 10px 0px 0px 10px;
+            border: none;
+            position: relative;
+  }
+
+
+  /* input type submit */
+  input[type=submit]{
+    text-align: center;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d62828;
+    color: #fff;
+    font-size: 15px;
+    margin-left: -15px;
+    position: absolute;
+}
+
+
+
+/* body part start */
+
+/* Top Course Categories */
+    .course{
+        margin:40px 250px 20px 250px;
+    }
+
+    .myslide img{
+      width: 335px;
+      height: auto;
+      margin: 10px;
+    }
+    .image {
+      max-width: 100%;
+      position: relative;
+      margin: auto;
+      margin-top: 5px;
+      
+    }
+    .myslide {
+      display: none;
+    }
+
+
+
+    
+    
+
+
+ 
+
+  
+  
+
+  

@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box margin: 0px;
+    padding: 0px;
+}
+.Campus{
+    margin: 100px 270px 40px 270px;
+}
+
+.campustext{
+   width: 300px;
+   float: left;
+   margin-top: 20px;
+}
+.campustext h1{
+    margin-bottom: 10px;
+}
+.campustext p{
+    text-align: justify;
+    margin-right: 20px;
+}
+
+/*  container */
+.container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    
+}
+
+.galary img{
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    animation:spin 4s infinite;
+}
+@keyframes spin {
+    from{
+        transform: rotateY(90deg);
+    }to{
+        transform: rotateZ(0deg);
+    }
+}
+
+/* Next & previous buttons */
+.but {
+    
+    /* margin: 50pxpx 430px 30px -200px; */
+    position: absolute;
+    margin-top: -200px;
+  
+}
+
+.but .prev,.but
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    width: auto;
+
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    padding: 10px;
+}
+
+/* Position the "next button" to the right */
+.but .next {
+    margin-left: 50px;
+    border-radius: 3px 0 0 3px;
+    opacity: 0.5;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.but .prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 100%;
+    color: #fff;
+}
+
+
+
+
+/* image box */

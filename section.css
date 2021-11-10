@@ -1,0 +1,79 @@
+
+/* text display */
+/* *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+} */
+.nani{
+    margin: 100px 270px 40px 270px;
+    box-sizing: border-box;
+    
+}
+.nani .text{
+    width: 224px;
+    height: 250px;
+    float: left;
+    margin-right: 20px;
+   
+}
+.nani .text h2{
+    
+    padding:20px 0px 00px 0px;
+}
+.nani .text p{
+    font-size: 20px;
+    padding:30px 0px 20px 0px;
+}
+.nani .text button{
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+    margin: -30px;
+    padding: 10px;
+    line-height: 10px;
+    margin-left: 0px;
+}
+/* card */
+.nani .card{
+    box-shadow: 0px 5px 8px 2px rgba(0, 0, 0, 0.2);
+   width: 205px;
+    height: 300px;
+    
+    
+    float: left;
+   
+    /* display: inline-block; */
+    /* transform: translate(250px, -260px); */
+    margin: 20px;
+    cursor: pointer;
+	 transition: 2s ease;
+   
+}
+.nani .card:hover{
+    transform: scale(0.9);
+	box-shadow:none;
+	/*z-index:1;*/
+  
+}
+.nani .card img{
+    width: 205px;
+    height: 150px;
+}
+.nani .card h5 {
+    text-align: center;
+    margin-top: 0px;
+    margin: 10px;
+}
+.nani .card p{
+    text-align: center;
+    margin: 10px
+    
+}
+ /* Intro Video image */
+
+ .Intro Video img{
+    width: 1020px;
+    height: 200px;
+    
+  }
